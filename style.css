@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+}
+
+td {
+    font-size: 16px;
+}
+
+thead tr:first-child th {
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+thead tr:nth-child(2) th {
+    background-color: #d9d9d9;
+}
+
+td[colspan="6"] {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+tbody tr td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
